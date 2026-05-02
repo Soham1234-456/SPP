@@ -6,6 +6,7 @@ import pickle
 
 # Load data
 data = pd.read_csv("student._performance.full.csv")
+df = df.dropna()
 
 # Encode categorical
 le_gender = LabelEncoder()
